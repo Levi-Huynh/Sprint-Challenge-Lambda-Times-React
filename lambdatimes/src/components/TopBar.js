@@ -22,7 +22,7 @@ const logout=()=> {
           <span>GENERAL</span><span>BROWNBAG</span><span>RANDOM</span><span>MUSIC</span><span>ANNOUNCEMENTS</span>
         </div>
         <div className="container-right">
-          <span onClick={logout}>LOG IN</span>
+          <span onClick={logout}>LOG IN/OUT</span>
         </div>
       </div>
     </div>
