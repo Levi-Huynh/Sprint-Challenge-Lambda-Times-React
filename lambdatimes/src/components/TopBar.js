@@ -4,6 +4,14 @@ import React from 'react';
 // You can find the corresponding CSS in the CSS/index.css file
 
 const TopBar = () => {
+
+    
+const logout=()=> {
+  localStorage.removeItem("username");
+  window.location.reload();
+}
+
+
   return (
     <div className="top-bar">
       <div className="container">
@@ -14,7 +22,7 @@ const TopBar = () => {
           <span>GENERAL</span><span>BROWNBAG</span><span>RANDOM</span><span>MUSIC</span><span>ANNOUNCEMENTS</span>
         </div>
         <div className="container-right">
-          <span>LOG IN</span>
+          <span onClick={logout}>LOG IN</span>
         </div>
       </div>
     </div>
