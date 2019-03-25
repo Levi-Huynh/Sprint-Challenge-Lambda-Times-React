@@ -60,7 +60,7 @@ export default class MainPage extends Component {
       <div className="content-container">
       
 
-        <Tabs tabs={this.state.tabs} selected={this.state.selected} selectHandler={this.changeSelected.bind(this)}/>
+        <Tabs tabs={this.state.tabs} selected={this.state.selected} changeSelected={this.changeSelected.bind(this)}/>
         <Cards cards=  {this.state.selected !== 'all'? this.state.cards.filter(card => card.tab ==this.state.selected) : this.state.cards} />
       </div>
     );
