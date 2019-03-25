@@ -17,10 +17,10 @@ const Card = props => {
 
 Card.PropTypes= {
   object: PropTypes.shape({
-  headline: props.string.isRequired,
-  author: props.string.isRequired,
-  img: props.string.isRequired,
-  tab: props.string.isRequired
+  headline: PropTypes.string.isRequired,
+  author:PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
+  tab:PropTypes.string.isRequired
 })
 };
 

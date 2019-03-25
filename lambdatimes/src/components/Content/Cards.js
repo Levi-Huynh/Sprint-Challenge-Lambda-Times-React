@@ -19,6 +19,7 @@ Cards.propTypes ={
     img: PropTypes.string.isRequired,
     author: PropTypes.string.isRequired
   })
+}
 
 // Make sure you include prop types for all of your incoming props
 
